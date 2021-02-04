@@ -25,6 +25,12 @@
   "projects": {
     "test-app": {
       "tags": []
+    },
+    "mylib": {
+      "tags": []
+    },
+    "mylib2": {
+      "tags": []
     }
   }
 }

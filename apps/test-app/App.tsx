@@ -1,11 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import { TextInput } from 'react-native-paper';
-import { MaterialCommunityIcons } from '@expo/vector-icons';
-
-// making sure exists in the application
-console.log('MaterialCommunityIcons', MaterialCommunityIcons);
+import { MyView } from '@mylib'
 
 export default function App() {
   return (
@@ -13,8 +9,7 @@ export default function App() {
       <Text testID="heading" style={styles.marginBottom}>
         Welcome! Open up App.tsx to start working on your app!
       </Text>
-      <MaterialCommunityIcons style={styles.marginBottom} name="account-edit" size={24} color="black" />
-      <TextInput label="name" right={<TextInput.Icon name='close' />} />
+      <MyView />
       <StatusBar style="auto" />
     </View>
   );

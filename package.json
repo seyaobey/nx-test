@@ -28,6 +28,7 @@
   },
   "private": true,
   "dependencies": {
+    "@expo/vector-icons": "^10.0.0",
     "expo": "39.0.2",
     "expo-status-bar": "1.0.2",
     "react": "16.13.1",
@@ -37,6 +38,10 @@
     "react-native-web": "0.13.12"
   },
   "devDependencies": {
+    "@babel/core": "7.9.6",
+    "@babel/preset-env": "7.9.6",
+    "@babel/preset-react": "7.9.4",
+    "@babel/preset-typescript": "7.9.0",
     "@expo/webpack-config": "0.12.43",
     "@nrwl/cli": "11.2.7",
     "@nrwl/eslint-plugin-nx": "11.2.7",
@@ -55,6 +60,7 @@
     "@types/react-test-renderer": "16.9.3",
     "@typescript-eslint/eslint-plugin": "4.3.0",
     "@typescript-eslint/parser": "4.3.0",
+    "babel-jest": "26.2.2",
     "dotenv": "6.2.0",
     "eslint": "7.10.0",
     "eslint-config-prettier": "6.0.0",
